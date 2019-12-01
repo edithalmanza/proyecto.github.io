@@ -1,0 +1,586 @@
+/ * DISEÑO WEB: WWW.MASTERNET.CL * /
+cuerpo {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	color de fondo: # 31A531; 
+    imagen de fondo: url (diseno / fondo.png);
+    posición de fondo: centro superior; 
+	repetición de fondo: repetir;	
+	color: # 000000; 
+	tamaño de fuente: 12px;	
+	estilo de fuente: normal;
+	margen: 0px; 	
+	relleno: 0px; 	
+    }
+un enlace { 
+	color: # 009900;
+	peso de fuente: ninguno; 
+	decoración de texto: ninguno; 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	}
+a: visitado { 
+	color: # 009900;
+	peso de fuente: ninguno; 
+	decoración de texto: ninguno; 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	}
+a: desplazarse {
+	color: # 009900;
+	peso de fuente: ninguno;
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	decoración de texto: subrayado; 
+	tamaño de fuente: 12px;
+    }
+a: activo {
+	color: # 009900;
+	peso de fuente: negrita;	
+	decoración de texto: ninguno; 	
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+    }
+.titulo_css {
+	font-family: 'Mandarina', serif, sans-serif; 	
+	tamaño de fuente: 50px; 
+	color: # 333300;	
+	decoración de texto: ninguno; 
+	espacio entre letras: 1px;
+	}
+H1 {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	alinear texto: Centro;
+	tamaño de fuente: 15px; 
+	color: # FF9900;
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno; 
+	peso de fuente: negrita;
+    espacio entre letras: 1px;
+    margen: 0.5em;
+	}	
+.numero_comentarios { 
+	tamaño de fuente: 24px;
+	color: # 666666;
+	}
+.comentarios_post_gracias { 
+	tamaño de fuente: 24px;
+	color: # 666666;
+	}	
+.grande { 
+	tamaño de fuente: 14px;
+	}
+.chica { 
+	tamaño de fuente: 11px;
+	decoración de texto: ninguno; 
+	color: # 000; 	
+	} 
+a.chica: enlace { 
+	tamaño de fuente: 11px;
+	decoración de texto: ninguno; 
+	color: # 000;
+	peso de fuente: negrita;	
+	}
+a.chica: visitado { 
+	tamaño de fuente: 11px;
+	decoración de texto: ninguno; 
+	color: # 000;
+	peso de fuente: negrita;	
+	}
+a.chica: hover {
+	tamaño de fuente: 11px;
+	decoración de texto: ninguno; 
+	color: # 000;
+	decoración de texto: subrayado; 	
+    }
+a.chica: activa {
+	tamaño de fuente: 11px;
+	decoración de texto: ninguno; 
+	color: # 000;
+	peso de fuente: negrita;	
+    }	
+.link_azul { 
+	color: # 000066; 
+	decoración de texto: subrayado;
+	} 
+.img_galeria { 
+	margen: 10px;
+	posición: centro; 
+	alinear texto: centro; 
+	borde: 0px;
+	} 	
+.link_negro { 
+	color: # 000000;
+	decoración de texto: subrayado;
+	} 
+.negrita { 
+	peso de fuente: negrita;
+	} 
+.rojo { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # FF0000;
+	}
+.blanco { 
+	color: #FFFFFF; 
+	}
+	
+.tabla_css {/ * LLAMADA EN <table class = "tabla_css" * /
+	colapso del borde: colapso;
+	color de fondo: #FFFFFF;
+	color del borde: #CCCCCC;
+	borde: 1px;
+	estilo de borde: sólido; / * ninguno | punteado | sólido | doble | surco | cresta | recuadro | comienzo | discontinuo * /
+	}
+.tabla_css td {
+	borde: 1px;
+	color del borde: #CCCCCC;
+	estilo de borde: sólido;
+	}
+	
+.tabla_css_2 {/ * LLAMADA ES <table class = "tabla_css" * /
+	colapso del borde: colapso;
+	color de fondo: #FFFFFF;
+	color del borde: #CCCCCC;
+	borde: 1px;
+	estilo de borde: sólido; / * ninguno | punteado | sólido | doble | surco | cresta | recuadro | comienzo | discontinuo * /
+	}
+.tabla_css_2 td {
+	borde: 1px;
+	color del borde: #CCCCCC;
+	estilo de borde: sólido;
+	relleno-izquierda: 10px;  
+	}	
+	
+#hintbox {
+	posición: absoluta;
+	arriba: 0;
+	color de fondo: #FFFFFF; 
+	ancho: 150 px; 
+	acolchado: 3px;
+	borde: 1px negro sólido;
+	fuente: normal 12px Verdana;
+	altura de línea: 14 px;
+	índice z: 100;
+	visibilidad: oculta;
+	}
+.espaciado_menu {
+	altura de línea: 23 px;
+	tamaño de fuente: 11px;	
+	}	
+.hintanchor {
+	peso de fuente: negrita;
+	color: azul marino;
+	margen: 3px 8px;
+	}		
+.normal { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # 000000; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	} 	
+.tachado { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # 000000; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: line-through;
+	} 		
+DIV.faqs {
+	PANTALLA: ninguna;
+    alinear texto: justificar;
+	}	
+.table_fondo {
+	borde: 0px;
+	color del borde: negro; 
+	estilo de borde: sólido; 
+	margen: auto;	
+	relleno: 0px; 
+	celdas vacías: show;	
+	/ * filter: progid: DXImageTransform.Microsoft.Shadow (color = # 333333, Dirección = 135, Fuerza = 7); * /
+    }	
+.tabla_titulos {
+	borde: 0px;
+	margen superior: 10px; 
+	margen inferior: 10px; 
+	celdas vacías: show;
+    }	
+.tabla_pie {
+	borde: 0px;
+	margen: 0px; 
+	celdas vacías: show;
+	relleno: 0px; 
+    }
+	
+a.menu:link, a.menu:visited, a.menu:active { 
+	color: # 000; 
+	peso de fuente: ninguno; / * normal, negrita, más audaz, más ligero * /
+	decoración de texto: ninguno; / * normal, cursiva, ninguno oblicuo, subrayado, sobrelínea, línea a través, parpadeo * /
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	margen izquierdo: 8px; 		
+	}
+	
+.menu_actual, a.menu_actual: enlace, a.menu_actual: visitado, a.menu_actual: hover, a.menu_actual: activo, a.menu:hover {	
+	color: #fff;
+	peso de fuente: negrita;	
+	decoración de texto: ninguno;
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	margen izquierdo: 15 px; 	
+	}	
+	
+	
+.menu_1, a.menu_1: enlace, a.menu_1: visitado { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: #FFFFFF; 
+	peso de fuente: negrita;	
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	alinear texto: centro;		
+	} 
+	
+a.menu_1: desplazarse {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: #CCCCCC; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	peso de fuente: negrita;	
+    }
+	
+.menu_2, a.menu_2: enlace, a.menu_2: visitado, a.menu_2: activo { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # 000000; 
+	peso de fuente: negrita;	
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	alinear texto: centro;		
+	} 
+a.menu_2: hover {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # 80364A; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	peso de fuente: negrita;	
+    }	
+.flecha_menu { 
+	margen izquierdo: 0px;
+	}
+.button_atras {
+	borde: 1px;
+	margen: 0px; 
+	relleno: 1px; 
+	estilo de borde: punteado; 
+	color del borde: # 666600; 
+	color de fondo: #FFFFFF;
+	color: # 000000; 
+	peso de fuente: negrita;
+	decoración de texto: ninguno;  
+	Familia tipográfica: Verdana;
+	tamaño de fuente: 13px;
+    cursor: puntero;	
+	margen inferior: 10px; 	
+    }	
+.button_atras: hover { 
+	color de fondo: #CCCCCC;
+	}
+	
+.tabla_cupon {
+	borde: 1px discontinuo;
+	margen superior: 10px; 
+	margen inferior: 10px; 
+	celdas vacías: show;
+	color del borde: # 000000;
+    }
+.alineado_derecha {
+    flotar derecho;
+    }	
+.alineado_izquerda { 
+    flotador izquierdo;
+    }
+.usuarios_en_linea { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # 000000; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	alinear texto: centro;	
+	}	
+.tarta { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: # 000; 
+	peso de fuente: normal;	
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	alinear texto: centro;		
+	} 
+a.pie: enlace { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: #FFF; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	}
+a.pie: visitado { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: #FFF; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	}
+a.pie: hover {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: #FFF; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+    }
+a.pie: activo {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 12px; 
+	color: #FFF; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+    }
+div.img_noticia_izquerda {
+	flotador izquierdo;
+  	margen: 3px; 
+	relleno derecho: 5px;
+	}
+div.img_noticia_derecha {
+    flotar derecho;
+  	margen: 3px; 
+	} 
+.img_noticia_previa {
+	flotar derecho;
+  	margen: 3px; 
+	relleno-izquierda: 5px;
+	} 	
+.button_intranet {
+	borde: 1px;
+	margen: 0px; 
+	relleno: 1px; 
+	estilo de borde: punteado; 
+	color del borde: # 666600; 
+	color de fondo: #FFF;
+	color: # 663300; 
+	peso de fuente: negrita;
+	decoración de texto: ninguno;  
+	Familia tipográfica: Verdana;
+	tamaño de fuente: 11px;
+    cursor: puntero;	
+    }	
+.button_intranet: hover { 
+	color de fondo: # FFFFE7;
+	}
+
+#tabla_producto {
+	FRONTERA: 0px; 
+	ANCHO: 575px; 
+	posición: centro;
+	alinear texto: centro;		
+	margen superior: 10px;
+	}
+#box_producto {
+	FRONTERA: #ccc 1px sólido; 
+	ANCHO: 135px;  
+	flotador izquierdo;
+	}
+#titulo_producto {
+	ACOLCHADO: 2px; 
+	COLOR DE FONDO: #ccc;
+	alinear texto: centro;		
+	}
+#cuerpo_producto {
+	alinear texto: centro;	
+	ACOLCHADO: 2px; 
+	COLOR DE FONDO: # EEEFF3;
+	}
+
+#box_producto_ficha {
+	FRONTERA: #ccc 1px sólido; 
+	ANCHO: 80%;
+	flotador: centro;
+	estilo de borde: punteado;
+	}
+#titulo_producto_ficha {
+	ACOLCHADO: 8px; 
+	COLOR DE FONDO: #ccc;
+	alinear texto: centro;	
+	peso de fuente: negrita;	
+	}
+#cuerpo_producto_ficha {
+	alinear texto: izquierda;	
+	ACOLCHADO: 8px; 
+	COLOR DE FONDO: #fff;
+	}	
+
+.catalogo_producto_titulo: link { 
+	color: # 000000; 
+	peso de fuente: ninguno;
+	decoración de texto: ninguno; 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	cursor: mano;
+	}
+.catalogo_producto_titulo: hover {
+	color: # 000099; 
+	peso de fuente: negrita;
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	decoración de texto: ninguno; 
+	tamaño de fuente: 12px;
+	cursor: mano;
+    }	
+.catalogo_producto_titulo: visitado { 
+	color: # 000000; 
+	peso de fuente: ninguno;
+	decoración de texto: ninguno; 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	cursor: mano;  	
+	}
+.catalogo_producto_titulo: active {
+	color: # 000000; 
+	peso de fuente: ninguno;
+	decoración de texto: ninguno; 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 12px;
+	cursor: mano; 
+    }
+#qTip {
+	borde: # 999999 1px sólido; 
+	pantalla: ninguno; 
+	acolchado: 3px; 
+	índice z: 1000; 
+	fuente: 12px verdana, arial, helvética, sans-serif; 
+	color: # 000000; 
+	posición: absoluta; 
+	color de fondo: #fff;
+	}
+#popup_css_opaco {
+	color de fondo: # 111111;
+	opacidad: 0,65;
+	posición: absoluta;
+	índice z: 9001;
+	arriba: 0px;
+	izquierda: 0px;
+	ancho: 100%;
+	altura: 1000 px;
+	}
+#popup_css_div {
+	posición: absoluta;
+	color de fondo: # 000000;
+	índice z: 9002; 
+	margen izquierdo: auto;
+	margen derecho: auto;
+	acolchado: 10px;
+	relleno superior: 3px;	
+	alineación de texto: derecha;	
+	} 
+.popup_css_cerrar, a.popup_css_cerrar: enlace, a.popup_css_cerrar: visitado, a.popup_css_cerrar: hover, a.popup_css_cerrar: activo {
+	fuente: negrita 16px Tahoma;
+	decoración de texto: ninguno; 	
+	espacio entre letras: 5px;
+	color: #FFFFFF;
+	altura de línea: 25 px;
+	alineación de texto: derecha;	
+	}
+	
+.masternet, a.masternet: enlace, a.masternet: visitado, a.masternet: activo { 
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 9px; 
+	color: # 000000; 
+	peso de fuente: normal;	
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;	
+	} 
+a.masternet: hover {
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif; 
+	tamaño de fuente: 9px; 
+	color: # 000066; 
+	estilo de fuente: normal; 
+	altura de línea: normal; 
+	decoración de texto: ninguno;
+	peso de fuente: negrita;	
+    }
+li {
+	fondo: url (diseno / li.png);
+	repetición de fondo: sin repetición;
+	posición de fondo: 0px 5px; 
+	relleno-izquierda: 12px; 
+	tipo-estilo-lista: ninguno; 
+	ancho: auto;
+	}
+	
+#contenedor_top {
+	ancho: 100%;
+	altura: 32px;
+	margen: 0px;
+	relleno: 0px;
+	alinear texto: centro;	
+		imagen de fondo: url (diseno / fondo_top.png);
+		repetición de fondo: repetir-x; 
+		posición de fondo: centro superior;		
+	}
+#contenedor_top_centrado {
+	margen: 0 automático 0 automático;
+	ancho: 800px;
+	altura: 32px;
+	relleno: 0px;	
+	}
+#contenedor_top_menu_full {
+	margen: 0px;
+	margen izquierdo: 0px;	
+	ancho: 800px;
+	altura: 40px;
+	relleno: 0px;
+	desbordamiento: oculto; 	
+	flotador izquierdo;	
+	}
+.div_menu_top_link {
+	altura: 22px;
+	relleno: 0px;
+	relleno-izquierda: 0px;	
+	relleno superior: 6px;		
+	margen: 0px;	
+	desbordamiento: oculto; 	
+	flotador izquierdo;	
+	alinear texto: centro;
+		imagen de fondo: url (diseno / div_menu_top.png);
+		repetición de fondo: sin repetición; 
+		posición de fondo: centro derecha;
+	}
+/ ******************************* MENÚS -> SUPERIOR ************** ******************** /	
+.menu_top, a.menu_top: enlace, a.menu_top: visitado, a.menu_top: activo {
+	alinear texto: centro;
+	color: # 000;
+	peso de fuente: normal;
+	decoración de texto: ninguno;
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 15px;
+	}
+.menu_top_a, a.menu_top_a: enlace, a.menu_top_a: visitado, a.menu_top_a: activo, a.menu_top: hover {
+	color: # 000;
+	peso de fuente: negrita;
+	decoración de texto: ninguno;
+	Familia tipográfica: Verdana, Arial, Helvetica, sans-serif;
+	tamaño de fuente: 15px;
+	alinear texto: centro;
+	}

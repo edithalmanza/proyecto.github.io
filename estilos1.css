@@ -1,0 +1,140 @@
+*{
+    box-sizing:border-box;
+}
+.acordeon{
+    padding: 10px;
+}
+.acordeon input{
+    display:none;
+}
+.acordeon__titulo{
+    display:block;
+    padding:15px;
+    background-color: crimson;
+    color:#fff;
+    cursor:pointer;
+    font-size:20px;
+    cursor:pointer;
+    border-bottom:1px solid #fff;
+    border-radius:10px;
+    width:290;
+}
+.acordeon__titulo:hover{
+    background: :rgba(220,20,60,0.8);
+}
+.acordeon__contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition:all 0.5s;
+}
+.acordeon input:checked ~.acordeon__contenido {
+    height: auto;
+    margin: 15px 0;
+}
+
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    background-color: #1191938;
+}
+
+footer .formulario {
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer .formulario form {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+footer .formulario form h1 {
+    padding: 0px 0px 10px 0px;
+    color: #C5CB27;
+    font-family: Verdana;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+footer .formulario form .grupo-form {
+    padding: 10px;
+}
+
+footer .formulario form .grupo-form label {
+    display: block;
+    align-items: top;
+    width: 100%;
+    color: #C5CB27;
+    font-family: Verdana;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+footer .formulario form .grupo-form textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+footer .formulario form .grupo-form input[type="text"],input[type="submit"], textarea, input[type="reset"], input[type="email"] {
+    display: block;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    border:2px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer .formulario form .grupo-form input:focus, textarea:focus {
+    border: 2px solid #191938;
+}
+
+footer .formulario form .grupo-form input[type="submit"] {
+    background: #1668C4;
+    color: #fff;
+    border:none;
+    font-family:Comic Sans MS;
+}
+
+footer .formulario form .grupo-form input[type="reset"] {
+    background: #3B8439;
+    color: #fff;
+    border:none;
+    font-family:Comic Sans MS;
+}
+
+footer .formulario form .grupo-form input[type="submit"]:hover {
+    background: #4A88F4;
+    cursor: pointer;    
+}
+
+footer .formulario form .grupo-form input[type="reset"]:hover {
+    background: white;
+    cursor: pointer;    
+}
+
+footer .video {
+    padding: 0px 30px 20px 50px;
+    text-align: center;
+}
+
+footer .video h1 {
+    padding: 10px 0px;
+    color: #C5CB27;
+    font-family: Comic Sans MS;
+}
+
+footer .video video {
+    width: 100%;
+    max-width: 720px;
+}

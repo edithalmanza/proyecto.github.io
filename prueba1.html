@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script LANGUAGE="JAVASCRIPT">
+
+function ClearForm(form){form.weight.value = ""; form.height.value = ""; form.bmi.value = ""; form.my_comment.value = "";}
+ 
+function bmi(weight, height) { bmindx=(weight/eval(height*height)); return bmindx;}
+ 
+function checkform(form) {  
+if (form.weight.value==null||form.weight.value.length==0 || form.height.value==null||form.height.value.length==0){ alert("\nDebe completar los datos.");
+return false; } else if (parseFloat(form.height.value) <= 0||
+                parseFloat(form.height.value) >=500||
+                parseFloat(form.weight.value) <= 0||
+                parseFloat(form.weight.value) >=500){ alert("\nIntroduzca los valores de nuevo en kilos y en centimetros");
+                ClearForm(form); return false; } return true;}
+ 
+function computeform(form) { if (checkform(form)) {  yourbmi=Math.round(bmi(form.weight.value, form.height.value/100)); form.bmi.value=yourbmi;
+ if (yourbmi >40) { form.my_comment.value="Obesidad en 3er grado";  }
+ else if (yourbmi >35 && yourbmi <=40) { form.my_comment.value="Obesidad en 2do grado";  }
+ else if (yourbmi >30 && yourbmi <=35) { form.my_comment.value="Obesidad en 1er grado"; }
+ else if (yourbmi >25 && yourbmi <=30) { form.my_comment.value="Obeso";   }
+ else if (yourbmi >=18 && yourbmi <=25) {form.my_comment.value="Normal"; }
+ else if (yourbmi >=17 && yourbmi <18) { form.my_comment.value="Deficiencia nutricional en 1er grado";  }
+ else if (yourbmi >=16 && yourbmi <17) { form.my_comment.value="Deficiencia nutricional en 2do grado";  }
+ else if (yourbmi <16) { form.my_comment.value="Deficiencia nutricional en 3er grado"; }
+ } return; }
+ 
+</script>
+<form NAME="BMI" method="POST" target="_self">
+              <div align="center">Debe ingresar solo su peso y altura... <br />
+                <br />
+                <table width="485" bgcolor="#FFFFCC" class="tabla_css">
+                <tr>
+                  <td width="96" height="29">
+                    <div align="center">
+                      Su Peso Kgs
+                    </div>
+                  </td>
+                      <td align="center" width="100">
+                        <div align="center">
+                          Su Altura cms
+                        </div>
+                  </td>
+                      <td align="center" width="74">
+                        <div align="center">
+                          Su BMI
+                        </div>
+                  </td>
+                      <td align="center" width="205">
+                        <div align="center">
+                        Resultado:                     </div>
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td width="96" height="33"><input NAME="weight" SIZE="5" onFocus="this.form.weight.value=''" style="text-align: left"></td>
+                  <td width="100"><input NAME="height" SIZE="5" onFocus="this.form.height.value=''" style="text-align: left"></td>
+                  <td width="74"><input NAME="bmi" SIZE="5" style="text-align: left"></td>
+                  <td width="205"><input NAME="my_comment" size="30" style="text-align: left"></td>
+                </tr>
+                </table>
+  </div><div align="center">
+                <input TYPE="button" VALUE="Resultado" onClick="computeform(this.form)">
+                <input TYPE="reset" VALUE="Borrar" onClick="ClearForm(this.form)">
+              </div>
+</form>
+
+
+
+</body>
+</html>
